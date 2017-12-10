@@ -1,10 +1,12 @@
 {
-  "name": "untitled4",
+  "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "test2.js",
+  "main": "dist/index.js",
+  "browser": "dist/util.min.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "build": "npm test; rollup -c"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,10 @@
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
     "nyc": "^11.3.0",
+    "rollup": "^0.52.1",
+    "rollup-plugin-tslint": "^0.1.24",
+    "rollup-plugin-typescript2": "^0.8.4",
+    "rollup-plugin-uglify": "^2.0.1",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"

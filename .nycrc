@@ -1,4 +1,7 @@
 {
+    "require": [
+        "ts-node/register"
+    ],
     "include": [
         "src/**/*.ts"
     ],
@@ -6,6 +9,7 @@
         ".ts"
     ],
     "exclude": [
+        "src/index.ts",
         "**/*.d.ts"
     ],
     "reporter": [
