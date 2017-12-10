@@ -2,8 +2,7 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "browser": "dist/util.min.js",
+  "main": "dist/util.min.js",
   "scripts": {
     "test": "nyc mocha",
     "build": "npm test; rollup -c"
