@@ -9,3 +9,8 @@ const b = (val: string): number  => [val];
 
 // 마이웨이 코딩이 불가능해진다.
 b('1').call(null, 1, 2, 3);
+
+const c = (): string => {
+	return '123';
+};
+
