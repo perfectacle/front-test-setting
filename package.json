@@ -2,11 +2,10 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/util.min.js",
   "scripts": {
     "test": "nyc mocha",
-    "build": "npm test; rollup -c",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "build": "npm test; rollup -c"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +14,6 @@
     "@types/chai": "^4.0.8",
     "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
     "mocha": "^4.0.1",
     "nyc": "^11.3.0",
     "rollup": "^0.52.1",
